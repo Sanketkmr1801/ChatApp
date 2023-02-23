@@ -13,7 +13,7 @@ const logout = document.getElementById('logout')
 const isAdmin = document.getElementById('isAdmin').innerHTML
 const body = document.querySelector('body')
 //Socket server URL
-const socket = io.connect('http://localhost:3000');
+const socket = io.connect('https://chatappjucse17.onrender.com/');
 
 socket.on('connection', () => {})
 
