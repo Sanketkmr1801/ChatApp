@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+</head>
+<body>
+    <div class="content">
+        <div>
+            <p>Welcome to Chat App</p>
+            <form action="/room" method="POST">
+                <input type="text" class="username" name="username" required readonly value=<%= name %>>
+                <input type="text" placeholder="Enter Room Name" class="roomname" name="roomname" required>
+                <input type="submit" value="Enter">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
