@@ -71,7 +71,7 @@ app.post('/logout', (req, res) => {
     res.redirect('/login')
 })
 
-server.listen(port, () => {
+server.listen(port, "https://chatappjucse17.onrender.com, () => {
     console.log("Server Listening on port ", port)
 })
 
